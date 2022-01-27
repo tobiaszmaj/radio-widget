@@ -6,7 +6,7 @@ Simple Radio widget created in React.
 
 ## Demo
 
-Check out the demo! - [LINK]()
+Check out the demo! - [LINK](https://radio-widget-tobiaszmaj.vercel.app/)
 
 ## Technologies
 
