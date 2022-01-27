@@ -1,0 +1,32 @@
+.FooterSection {
+    border-radius: 0 0 24px 24px;
+    width: 320px;
+    height: 104px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 2px solid rgb(81, 85, 97);
+    background-color: #22222c;
+    box-shadow: 0 22px 6px rgba(0, 0, 0, .12);
+}
+.TopTitle {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(237, 174, 97);
+    font-weight: bold;
+    line-height: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.Title {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(162, 171, 189);
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 0;
+    text-transform: capitalize;
+}

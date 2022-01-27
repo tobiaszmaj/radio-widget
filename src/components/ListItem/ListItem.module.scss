@@ -1,0 +1,53 @@
+.ListSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2a35;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.102);
+    &:last-child {
+        border-bottom: 0;
+    }  
+}
+.FlipPanel {
+    display: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    transition: display 1s ease-in-out;
+}
+.FlipPanelShow {
+    display: flex;
+}
+.FmImage {
+    width: 140px;
+    height: 140px;
+}
+.Minus, .Plus {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.StationInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.TitleName {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.364;  
+    color: rgb(162, 171, 189);
+    margin: 0;
+    text-transform: capitalize;
+}
+.TitleFrequency {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.364;  
+    color: rgb(162, 171, 189);
+    font-weight: bold;
+    margin: 0;
+}

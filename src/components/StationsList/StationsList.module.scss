@@ -1,0 +1,22 @@
+.ContentSection {
+    width: 320px;
+    height: 360px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2a35;
+    overflow-y: auto;
+}
+
+.ContentSection::-webkit-scrollbar {
+    display: none;
+}
+
+.Title {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 26px;  
+}
